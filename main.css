@@ -1,0 +1,53 @@
+.p_div{
+    width: 600px;
+}
+
+.befor_foot_btn{
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgba(1, 47, 52, 1);
+    border-radius: 20px;
+    color: rgba(1, 47, 52, 1);
+    transition: 0.5s ease-in;
+}
+.befor_foot_btn:hover{
+    border: 2px solid white;
+    background-color: rgba(1, 47, 52, 1);
+    color: white;
+}
+
+@media (max-width: 760px){
+    .p_div{
+        width: 100%;
+    }
+
+    .main_div1{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .box1{
+        width: 280px;
+        height: 280px;
+    }
+    .box3{
+        width: 280px;
+        height: 280px;
+        justify-content: center;
+    }
+
+    .puls_div{
+        margin-top: 50px;
+    }
+    
+
+}
+
+@media (max-width: 378px){
+    .h2_h2{
+        font-size: 30px;
+    }
+}
+
